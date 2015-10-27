@@ -31,12 +31,6 @@
                     <span>Inicio</span>
                 </a>
             </li>
-            <li>
-                <a href="/users">
-                    <i class="fa fa-users"></i>
-                    <span>Admin. Usuarios</span>
-                </a>
-            </li>
             <li class="treeview">
                 <a href="#">
                 <i class="fa fa-cogs"></i> <span>TecniScan</span> 
@@ -121,6 +115,8 @@
                 </i>
                 </a>
                 <ul class="treeview-menu">
+                    <li><a href="/clientes"><i class="fa fa-users"></i>Admin. Clientes</a></li>
+                    <li><a href="/users"><i class="fa fa-users"></i>Admin. Usuarios</a></li>
                     <li><a href="/roles"><i class="fa fa-level-up"></i> Admin. Roles</a></li>
                     <li><a href="/estados"><i class="fa fa-certificate"></i>Admin. Estados</a></li>
                 </ul>
