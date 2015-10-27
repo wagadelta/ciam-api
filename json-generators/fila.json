@@ -1,0 +1,22 @@
+[
+    {
+        "field":"nombre:string",
+        "validations": "required"
+    },
+    {
+        "field":"ticket:integer",
+        "validations": "required"
+    },
+    {
+	"field":"medico:string",
+	"validations": "required"
+    },
+    {
+	"field":"especialidad:string",
+	"validations":""
+    },
+    {
+	"field":"estado:string",
+	"validations":""
+    }
+]
